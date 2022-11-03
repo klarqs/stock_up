@@ -1,4 +1,4 @@
-FreeGeoIP for Laravel 4
+Stock Market Report
 =======================
 
 [![Build Status](https://travis-ci.org/buonzz/laravel-4-freegeoip.svg?branch=master)](https://travis-ci.org/buonzz/laravel-4-freegeoip)
