@@ -32,7 +32,7 @@ class StocksHomeBody extends StatelessWidget {
                             vertical: 8,
                           ),
                           child: Text(
-                            "Random Stocks Activity",
+                            "10 Random Stocks",
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 14,

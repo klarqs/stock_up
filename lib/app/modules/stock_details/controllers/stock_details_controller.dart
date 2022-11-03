@@ -24,7 +24,7 @@ class StockDetailsController extends GetxController {
   List<dynamic>? tenRandomTickets =
       List.generate(10, (_) => Random.secure().nextInt(100));
 
-  String apiKey = "68b27d450a72b09bf9510d8711d13dda", limit = "100";
+  String apiKey = "2ca33655bec8aae136c870264be542b7", limit = "100";
 
   void onSelectionChanged(DateRangePickerSelectionChangedArgs args) {
     if (args.value is PickerDateRange) {
