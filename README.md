@@ -8,12 +8,9 @@ Screenshots
 ![Alt text](/assets/images/screenshots/3.png?raw=true "Filter")
 ![Alt text](/assets/images/screenshots/4.png?raw=true "Search")
 
-Laravel 4 Library for calling http://freegeoip.net/ API.
-
 Using the marketstack.com API, this is a flutter app that shows the stock market report of 10 random
 companies. Also includes a date range and an auto complete search box to the UI. The autocomplete feature
 filters the list returned from the API. Also, notifies the user if the device is offline.
-
 
 Requirements
 ============
