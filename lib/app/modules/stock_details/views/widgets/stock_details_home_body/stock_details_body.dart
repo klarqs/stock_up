@@ -135,25 +135,14 @@ class _StockDetailsBodyState extends State<StockDetailsBody> {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                Row(
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    const Icon(
-                                      Icons.date_range_outlined,
-                                      color: Colors.yellow,
-                                      size: 14,
-                                    ),
-                                    Text(
-                                      " ${_controller.formattedDate.format(DateTime.parse(data![i].date.toString()))}",
-                                      style: const TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 10,
-                                        // height: 1.8,
-                                        fontWeight: FontWeight.w400,
-                                      ),
-                                    ),
-                                  ],
+                                Text(
+                                  " ${_controller.formattedDate.format(DateTime.parse(data![i].date.toString()))}",
+                                  style: const TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 10,
+                                    // height: 1.8,
+                                    fontWeight: FontWeight.w400,
+                                  ),
                                 ),
                                 const SizedBox(
                                   height: 8,

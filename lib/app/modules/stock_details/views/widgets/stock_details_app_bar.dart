@@ -28,7 +28,8 @@ class StockDetailsAppBar extends StatelessWidget {
             size: 20,
           ),
           onPressed: () {
-            _homeController.range.value = "";
+            _homeController.dateTo.value = "";
+            _homeController.dateFrom.value = "";
             Get.back();
           },
         ),
@@ -57,7 +58,7 @@ class StockDetailsAppBar extends StatelessWidget {
                   backgroundColor: const Color(0xff1F1F1F),
                   content: SizedBox(
                     width: Get.width,
-                    height: 404,
+                    height: 424,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
