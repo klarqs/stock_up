@@ -25,7 +25,7 @@ class StocksHomeController extends GetxController {
   List<dynamic>? tenRandomTickets =
       List.generate(10, (_) => Random.secure().nextInt(100));
 
-  final String apiKey = "2ca33655bec8aae136c870264be542b7", limit = "100";
+  final String apiKey = "68333e92e1faee2e0dbeca45bf376bc3", limit = "100";
 
   RxString selectedDate = ''.obs,
       dateCount = ''.obs,
